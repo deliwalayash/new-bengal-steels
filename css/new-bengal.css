@@ -1158,3 +1158,34 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border: 0;
 }
 
+/* Email Highlight Badge */
+.nbs-email-highlight-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #FFF5F5;
+    border: 1.5px solid #FFCDD2;
+    padding: 8px 18px;
+    border-radius: 30px;
+    color: #1E293B;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.92rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.08);
+}
+
+.nbs-email-highlight-badge:hover {
+    background: var(--nbs-red);
+    color: #FFFFFF !important;
+    border-color: var(--nbs-red);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(211, 47, 47, 0.2);
+}
+
+.nbs-email-highlight-badge:hover strong,
+.nbs-email-highlight-badge:hover i {
+    color: #FFFFFF !important;
+}
+
+
